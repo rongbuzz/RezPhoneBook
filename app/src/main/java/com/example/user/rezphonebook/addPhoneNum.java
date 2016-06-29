@@ -24,6 +24,7 @@ public class addPhoneNum extends AppCompatActivity {
 
         edname = (EditText) findViewById(R.id.editText);
         ephone =(EditText) findViewById(R.id.editText2);
+        dbhelper =new dbHelper(getApplicationContext());
 
 
 
