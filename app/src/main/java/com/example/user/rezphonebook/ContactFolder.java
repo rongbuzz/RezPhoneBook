@@ -6,6 +6,7 @@ package com.example.user.rezphonebook;
 public class ContactFolder {
     int id;
     String name;
+    String phone;
 
     public ContactFolder(int id, String name, String phone) {
         this.id = id;
@@ -19,5 +20,5 @@ public class ContactFolder {
         this.phone = phone;
     }
 
-    String phone;
+
 }
